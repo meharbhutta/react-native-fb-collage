@@ -1,6 +1,6 @@
 {
   "name": "react-native-fb-collage",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A package to make collage for react native.",
   "main": "built/index.js",
   "types": "built/index.d.ts",
