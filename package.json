@@ -1,0 +1,50 @@
+{
+  "name": "react-native-fb-collage",
+  "version": "0.0.1",
+  "description": "A package to make collage for react native.",
+  "main": "built/index.js",
+  "types": "built/index.d.ts",
+  "scripts": {
+    "prepare": "rimraf built && tsc",
+    "start": "tsc -w --outDir demo/built"
+  },
+  "keywords": [
+    "react-native",
+    "react-component",
+    "react-native-component",
+    "react-native-collage",
+    "react native",
+    "react native collage",
+    "react",
+    "mobile",
+    "ios",
+    "android",
+    "ui",
+    "image",
+    "collage"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meharbhutta/react-native-fb-collage.git"
+  },
+  "author": "Muhammad Mehar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meharbhutta/react-native-fb-collage/issues"
+  },
+  "homepage": "https://github.com/meharbhutta/react-native-fb-collage#readme",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "@types/react": "*",
+    "@types/react-native": "*",
+    "react": "*",
+    "react-native": "*",
+    "rimraf": "2.6.3",
+    "tslint": "^5.8.0",
+    "tslint-config-prettier": "^1.13.0",
+    "typescript": "^2.9.2"
+  }
+}

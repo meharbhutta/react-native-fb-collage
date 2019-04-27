@@ -1,0 +1,15 @@
+# Logs
+*.log
+npm-debug.log
+
+# Runtime data
+built
+tmp
+build
+dist
+
+# Dependency directory
+node_modules
+
+#Package
+react-native-fb-collage-0.01.tgz
