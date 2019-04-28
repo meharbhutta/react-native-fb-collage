@@ -10,7 +10,7 @@ A package to make collage for react native.
 
 ## NPM
 
-- stable release version: ![version](https://img.shields.io/badge/version-0.0.2-blue.svg?cacheSeconds=2592000)
+- stable release version: ![version](https://img.shields.io/badge/version-0.0.4-blue.svg?cacheSeconds=2592000)
 - package downloads: ![downloads](https://img.shields.io/badge/downloads-22%2Fweek-brightgreen.svg?cacheSeconds=2592000)
 - [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 
@@ -53,7 +53,12 @@ import FBCollage from 'react-native-fb-collage';
 export default class App extends React.Component {
     render: function() {
         return (
-            <View visible={true} transparent={true}>
+            <View 
+                style={{ 
+                    flex: 1, 
+                    justifyContent: "center" 
+                }}
+            >
                 <FBCollage 
                   images={[
                       // static image using require.
