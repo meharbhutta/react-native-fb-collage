@@ -1,7 +1,7 @@
 {
   "name": "react-native-fb-collage",
-  "version": "0.0.4",
-  "description": "A package to make collage for react native.",
+  "version": "0.0.5",
+  "description": "Image Grid or Collage component for React Native",
   "main": "built/index.js",
   "types": "built/index.d.ts",
   "scripts": {
@@ -13,21 +13,24 @@
     "react-component",
     "react-native-component",
     "react-native-collage",
+    "react-native-fb-collage",
     "react native",
     "react native collage",
+    "react native image grid",
     "react",
     "mobile",
     "ios",
     "android",
     "ui",
     "image",
-    "collage"
+    "collage",
+    "grid"
   ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/meharbhutta/react-native-fb-collage.git"
   },
-  "author": "Muhammad Mehar",
+  "author": "Muhammad Mehar <meharbhutta@gmail.com> (https://twitter.com/meharbhutta)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/meharbhutta/react-native-fb-collage/issues"
