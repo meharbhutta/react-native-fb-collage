@@ -10,7 +10,7 @@ Image Grid or Collage component for React Native
 
 ## NPM
 
-- stable release version: ![version](https://img.shields.io/badge/version-0.0.5-blue.svg?cacheSeconds=2592000)
+- stable release version: ![version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)
 - package downloads: ![downloads](https://img.shields.io/badge/downloads-22%2Fweek-brightgreen.svg?cacheSeconds=2592000)
 - [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 
@@ -64,15 +64,16 @@ export default class App extends React.Component {
                       // static image using require.
                       //require('../assets/image-file.ext')
                       //OR
-                      //{uri: 'https://imageURL...'}
+                      //fetch from server using url.
+                      //'https://imageURL...'
                       //for Example
-                      { uri: 'https://www.inovex.de/blog/wp-content/uploads/2018/03/react-native-800x450.png' },
-                      { uri: 'https://www.inovex.de/blog/wp-content/uploads/2018/03/react-native-800x450.png' },
-                      { uri: 'https://www.inovex.de/blog/wp-content/uploads/2018/03/react-native-800x450.png' },
-                      { uri: 'https://www.inovex.de/blog/wp-content/uploads/2018/03/react-native-800x450.png' },
-                      { uri: 'https://www.inovex.de/blog/wp-content/uploads/2018/03/react-native-800x450.png' },
-                      { uri: 'https://www.inovex.de/blog/wp-content/uploads/2018/03/react-native-800x450.png' },
-                      { uri: 'https://www.inovex.de/blog/wp-content/uploads/2018/03/react-native-800x450.png' }
+                      'https://www.inovex.de/blog/wp-content/uploads/2018/03/react-native-800x450.png',
+                      'https://www.inovex.de/blog/wp-content/uploads/2018/03/react-native-800x450.png',
+                      'https://www.inovex.de/blog/wp-content/uploads/2018/03/react-native-800x450.png',
+                      'https://www.inovex.de/blog/wp-content/uploads/2018/03/react-native-800x450.png',
+                      'https://www.inovex.de/blog/wp-content/uploads/2018/03/react-native-800x450.png',
+                      'https://www.inovex.de/blog/wp-content/uploads/2018/03/react-native-800x450.png',
+                      'https://www.inovex.de/blog/wp-content/uploads/2018/03/react-native-800x450.png'
                   ]}
                   imageOnPress={() => {}}
                 />
@@ -86,7 +87,7 @@ export default class App extends React.Component {
 
 | parameter | type  | required | description | default |
 | :--------------------- | :------------------------------------------------------------------------------------- | :------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------- |
-| images | array | yes | The array of image sources of <br> require('../image-file') <br> or <br> { uri: 'imageURL'} <br> or <br> both    |  |
+| images | array | yes | The array of image sources of <br> require('../image-file') <br> or <br> 'imageURL' <br> or <br> both    |  |
 | imageOnPress | function<br>`(index, images) => void` | no | The callback for image on press listener | `() => {}` |
 | width | number | no | The width of the view | `357` |
 | height            | number                                                                                 | no       | The height of the view                                                                                                                                                                | `200`                                                     |

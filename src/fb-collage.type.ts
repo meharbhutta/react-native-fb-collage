@@ -1,4 +1,4 @@
-import { ImageURISource, ImageResizeMode, ViewStyle, TextStyle } from 'react-native';
+import { ImageResizeMode, ViewStyle, TextStyle } from 'react-native';
 
 export type FuncStyle = {
   (length: number): ViewStyle;
@@ -8,9 +8,15 @@ export type StaticStyle = {
   [x: string]: ViewStyle | TextStyle | FuncStyle;
 };
 
+type ImageRequireSource = number
+
+type ImageURISource = string
+
+export type ImageSource = ImageRequireSource | ImageURISource;
+
 export class Props {
 
-  images: ImageURISource[] = [];
+  images: ImageSource[] = [];
 
   resizeMode: ImageResizeMode = 'cover';
 

@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { ImageBackground, Text, TouchableOpacity, View, ImageURISource, ViewStyle, TextStyle } from 'react-native';
-import { Props, FuncStyle, StaticStyle } from './fb-collage.type';
+import { ImageBackground, Text, TouchableOpacity, View, ViewStyle, TextStyle } from 'react-native';
+import { Props, ImageSource, FuncStyle, StaticStyle } from './fb-collage.type';
 import staticStyles from './fb-collage.style';
 
 export default class FBCollage extends React.Component<Props> {
@@ -13,7 +13,7 @@ export default class FBCollage extends React.Component<Props> {
     this.styles = staticStyles(props.width, props.height, props.borderRadius, props.spacing);
   }
 
-  __renderImage = (image: ImageURISource, index: number, style?: ViewStyle, text?: string, blurRadius?: number) => {
+  __renderImage = (image: ImageSource, index: number, style?: ViewStyle, text?: string, blurRadius?: number) => {
     const {
       images,
       imageOnPress,
@@ -21,6 +21,8 @@ export default class FBCollage extends React.Component<Props> {
       textStyle: textStyleOverride,
       overlayStyle: overlayStyleOverride
     } = this.props;
+
+    const source = typeof image === 'string' ? { uri: image } : image;
 
     return (
       <TouchableOpacity
@@ -33,7 +35,7 @@ export default class FBCollage extends React.Component<Props> {
       >
         <ImageBackground
           style={this.styles.FLEX as ViewStyle}
-          source={image}
+          source={source}
           resizeMode={resizeMode}
           blurRadius={blurRadius}
         >
@@ -59,7 +61,7 @@ export default class FBCollage extends React.Component<Props> {
     );
   };
 
-  __renderImages = (images: ImageURISource[]) => {
+  __renderImages = (images: ImageSource[]) => {
     const length = images.length,
       check = length > 4,
       childs = check ? images.slice(0, 4) : images,
@@ -76,7 +78,7 @@ export default class FBCollage extends React.Component<Props> {
     );
   };
 
-  __renderContent = (images: ImageURISource[]) => {
+  __renderContent = (images: ImageSource[]) => {
     return (
       <>
         <View style={this.styles.FLEX as ViewStyle}>

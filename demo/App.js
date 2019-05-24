@@ -17,13 +17,13 @@ export default class App extends Component<Props> {
       <View style={styles.container}>
         <FBCollage
           images={[
-            { uri: 'https://www.inovex.de/blog/wp-content/uploads/2018/03/react-native-800x450.png' },
-            { uri: 'https://www.inovex.de/blog/wp-content/uploads/2018/03/react-native-800x450.png' },
-            { uri: 'https://www.inovex.de/blog/wp-content/uploads/2018/03/react-native-800x450.png' },
-            { uri: 'https://www.inovex.de/blog/wp-content/uploads/2018/03/react-native-800x450.png' },
-            { uri: 'https://www.inovex.de/blog/wp-content/uploads/2018/03/react-native-800x450.png' },
-            { uri: 'https://www.inovex.de/blog/wp-content/uploads/2018/03/react-native-800x450.png' },
-            { uri: 'https://www.inovex.de/blog/wp-content/uploads/2018/03/react-native-800x450.png' }
+            'https://www.inovex.de/blog/wp-content/uploads/2018/03/react-native-800x450.png',
+            'https://www.inovex.de/blog/wp-content/uploads/2018/03/react-native-800x450.png',
+            'https://www.inovex.de/blog/wp-content/uploads/2018/03/react-native-800x450.png',
+            'https://www.inovex.de/blog/wp-content/uploads/2018/03/react-native-800x450.png',
+            'https://www.inovex.de/blog/wp-content/uploads/2018/03/react-native-800x450.png',
+            'https://www.inovex.de/blog/wp-content/uploads/2018/03/react-native-800x450.png',
+            'https://www.inovex.de/blog/wp-content/uploads/2018/03/react-native-800x450.png'
           ]}
           style={styles.view}
         />
