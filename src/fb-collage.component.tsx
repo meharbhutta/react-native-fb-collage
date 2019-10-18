@@ -32,6 +32,7 @@ export default class FBCollage extends React.Component<Props> {
         }}
         onPress={() => imageOnPress && imageOnPress(index, images)}
         activeOpacity={0.8}
+        key={`image${index}`}
       >
         <ImageBackground
           style={this.styles.FLEX as ViewStyle}
