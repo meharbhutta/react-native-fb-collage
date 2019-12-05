@@ -118,3 +118,17 @@ react-native run-ios (For ios)
 ```
 
 #### In case of any issue follow the [GUIDE](https://facebook.github.io/react-native/docs/getting-started).
+
+### Supported React Native Versions  
+
+This project aims to support any version of React Native.
+
+If you require new features or bug fixes for older versions you can fork this project.
+
+### Credits
+
+The idea for this modules came from facebook collage.
+
+### Licenses
+
+FBCollage - MIT © MeharBhutta
