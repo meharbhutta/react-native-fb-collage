@@ -1,3 +1,9 @@
+#### 1.0.5-4 (2019-12-05)
+
+##### Documentation Changes
+
+*  credit, copyright & support added ([fa8884cf](https://github.com/meharbhutta/react-native-fb-collage/commit/fa8884cfdb98c217c2d39cc355edbdb3c8a08faf))
+
 #### 1.0.4-3 (2019-12-05)
 
 ##### Documentation Changes
