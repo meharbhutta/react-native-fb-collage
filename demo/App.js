@@ -8,7 +8,7 @@
 
 import React, { Component } from 'react';
 import { StyleSheet, View } from 'react-native';
-import FBCollage from './built/index';
+import FBCollage from 'react-native-fb-collage';
 
 type Props = {};
 export default class App extends Component<Props> {
