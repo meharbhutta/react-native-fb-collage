@@ -1,3 +1,9 @@
+#### 1.0.6-5 (2019-12-05)
+
+##### Documentation Changes
+
+*  stable release updated ([ea70edfd](https://github.com/meharbhutta/react-native-fb-collage/commit/ea70edfd5c148ce308d0b04ad7c980f15c864aab))
+
 #### 1.0.5-4 (2019-12-05)
 
 ##### Documentation Changes
