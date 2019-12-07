@@ -1,6 +1,6 @@
 {
   "name": "react-native-fb-collage",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Image Grid or Collage component for React Native",
   "main": "built/index.js",
   "types": "built/index.d.ts",
