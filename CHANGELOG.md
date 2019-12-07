@@ -1,3 +1,9 @@
+#### 1.0.7-6 (2019-12-07)
+
+##### New Features
+
+* **template:**  github template added ([1a2f9070](https://github.com/meharbhutta/react-native-fb-collage/commit/1a2f90709e2c3f6baebee834551377bfcc7a4d9d))
+
 #### 1.0.6-5 (2019-12-05)
 
 ##### Documentation Changes
